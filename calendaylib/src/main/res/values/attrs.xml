@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WeekView">
+        <!--General-->
+        <attr name="numOfDays" format="integer"/>
+
+        <attr name="weekAxisColor" format="color"/>
+        <attr name="weekWeekdayBackground" format="color"/>
+        <attr name="weekTodayColor" format="color"/>
+        <attr name="weekEventColor" format="color"/>
+        <attr name="timelineBackground" format="color"/>
+        <attr name="currentTimeColor" format="color"/>
+
+        <attr name="addEventBtn" format="reference"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="MonthView">
+        <attr name="monthAxisColor" format="color"/>
+        <attr name="monthWeekdayBackground" format="color"/>
+        <attr name="monthCellColor" format="color"/>
+        <attr name="monthTextColor" format="color"/>
+        <attr name="otherMonthCellColor" format="color"/>
+        <attr name="otherMonthTextColor" format="color"/>
+        <attr name="monthTodayColor" format="color"/>
+        <attr name="monthEventColor" format="color"/>
+
+        <attr name="monthCurrentTimeColor" format="color"/>
+        <attr name="monthAddEventBtn" format="reference"/>
+    </declare-styleable>
+</resources>

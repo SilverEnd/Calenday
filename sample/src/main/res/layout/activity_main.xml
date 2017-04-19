@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.erikzuo.calendaylib.view.WeekView
+        android:id="@+id/week_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        app:timelineBackground="#f0f0f0"
+        app:weekAxisColor="#bbbbbb"
+        app:weekEventColor="#ff0000"
+        app:weekTodayColor="#fffdd0"
+        app:weekWeekdayBackground="#f0f0f0"
+        app:currentTimeColor="#0000ff"
+        app:addEventBtn="@drawable/ic_add_white"
+        app:numOfDays="7"/>
+
+
+    <com.erikzuo.calendaylib.view.MonthView
+        android:id="@+id/month_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:monthAxisColor="#bbbbbb"
+        app:monthCellColor="#eeeeee"
+        app:monthTextColor="#000000"
+        app:monthTodayColor="#fffdd0"
+        app:otherMonthCellColor="#bbbbbb"
+        app:otherMonthTextColor="#eeeeee"
+        app:monthEventColor="#ff0000"
+        app:monthWeekdayBackground="#f0f0f0"
+        app:monthCurrentTimeColor="#0000ff"
+        app:monthAddEventBtn="@drawable/ic_add_white"
+        android:visibility="gone"/>
+
+
+    <com.erikzuo.calendaylib.view.WeekView
+        android:id="@+id/three_day_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        app:numOfDays="3"/>
+
+
+</RelativeLayout>

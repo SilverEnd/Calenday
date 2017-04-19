@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_today_icon"
+        android:title="Today"
+        app:showAsAction="always"
+        />
+
+
+    <group>
+        <item
+            android:id="@+id/menu_display_month"
+            android:title="Month"/>
+        <item
+            android:id="@+id/menu_display_week"
+            android:title="Week"/>
+        <item
+            android:id="@+id/menu_display_day"
+            android:title="Day"/>
+    </group>
+
+
+</menu>
