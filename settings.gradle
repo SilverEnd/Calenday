@@ -1,1 +1,1 @@
-include ':sample', ':calendaylib'
+include ':sample', ':calenday'

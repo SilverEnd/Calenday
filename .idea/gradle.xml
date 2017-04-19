@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/calendaylib" />
+            <option value="$PROJECT_DIR$/calenday" />
             <option value="$PROJECT_DIR$/sample" />
           </set>
         </option>
